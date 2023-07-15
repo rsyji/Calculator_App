@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App using Event Listener</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- input field  -->
+      <input type="text" id="input" placeholder="0" disabled=""/><br />
+
+      <table>
+        <!-- first row -->
+        <tr>
+            <td><button id="add">&plus;</button></td>
+            <td><button id="minus">&minus;</button></td>
+            <td><button id="times">&times;</button></td>
+            <td><button id="divide">&divide;</button></td>
+           </tr>
+   
+         <!-- second row -->
+          <tr>
+            <td><button id="no-7">7</button></td>
+            <td><button id="no-8">8</button></td>
+            <td><button id="no-9">9</button></td>
+            <td><button id="decimal">.</button></td>
+          </tr>
+   
+         <!-- third row -->
+          <tr>
+            <td><button id="no-4">4</button></td>
+            <td><button id="no-5">5</button></td>
+            <td><button id="no-6">6</button></td>
+            <td rowspan="2"><button id="clear">C</button></td>
+          </tr>
+   
+          <!-- forth row -->
+           <tr>
+            <td><button id="no-1">1</button></td>
+            <td><button id="no-2">2</button></td>
+            <td><button id="no-3">3</button></td>
+           </tr>
+
+          <!-- ffifth row -->
+          <tr>
+            <td><button id="no-0">0</button></td>
+            <td colspan="3"><button id="equals">&equals;</button></td>
+          </tr>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
